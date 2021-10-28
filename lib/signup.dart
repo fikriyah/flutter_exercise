@@ -52,11 +52,17 @@ class _MyHomepageState extends State<MyHomepage> {
           padding: const EdgeInsets.all(3.0),
           children: [
             Container(
+              color: Colors.white,
                 padding: EdgeInsets.all(7.0),
                 child: Center(
+                  
                   child: Text('Welcome To Besquare',
-                      style: TextStyle(fontSize: 30)),
+                      style: TextStyle(fontSize: 30),),
                 )),
+                Container(
+                  child: Center(
+                    child: Image.network('https://k8p2k7e9.stackpathcdn.com/wp-content/uploads/2021/02/Deriv-Launches-Innovative-Tech-Graduate-Programme-%E2%80%93-BeSquare-1440x564_c.jpg?x25500'),),
+                ),
             Container(
                 width: 480,
                 padding: EdgeInsets.all(10.0),
